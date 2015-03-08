@@ -1,0 +1,551 @@
+<html>
+	<head>
+		<link href='http://fonts.googleapis.com/css?family=Titillium+Web:600,400,700,900' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Roboto Condensed' rel='stylesheet' type='text/css'>
+		<style>
+		body{
+			background-color: #ffeeee;
+			margin :0px;
+			padding: 0px;
+			text-align: center;
+		}
+		.yo{
+			margin :0px;
+			padding: 0px;
+			width: 100%;
+			height : 98%;
+			background: url('hallday_low_new.png') no-repeat center center fixed; 
+	        background-size: 100% 142%;
+	        transform: scale(0.95);
+	        border: 2px dashed; 
+	    }
+	    .scissors{
+	    	position:fixed;
+	    	top: 73.5%;
+	    	left : 70%;
+			width: 430px;
+			height : 300px;
+			background: url('scissors.png'); 
+	        background-size: cover;
+	        transform: scale(0.1);
+	    }
+	    .hall{
+	    	background-color: #dd4e41;
+
+	    	background-color: #333333;
+	    	text-align: center;
+	    	font-size: 1.8em;
+	    	font-family: Roboto Condensed;
+	    }
+
+	    .RP{
+	    	position: relative;
+	    	top: 56%;
+	    	left: 35%;
+	    	border-radius: 0.25em;
+	    	width: 6%;
+	    	height: 15%;
+
+	    	line-height: 300%;	    	
+	    	transform : rotate(-7deg);
+	    }
+	    .RK{
+	    	position: absolute;
+	    	top: 56%;
+	    	left: 43%;
+	    	border-radius: 0.25em;
+	    	width: 6%;
+	    	height: 15%;
+	    	line-height: 300%;	 
+	    	
+	    	transform : rotate(-5deg);
+	    }
+	    .BCR{
+	    	position: absolute;
+	    	top: 42%;
+	    	left: 36%;
+	    	border-radius: 0.25em;
+	    	width: 5%;
+	    	height: 7%;
+	    	
+	    	transform : rotate(0deg);
+	    }
+	    .GKH{
+	    	position: absolute;
+	    	top: 40%;
+	    	left: 42.5%;
+	    	border-radius: 0.25em;
+	    	width: 6%;
+	    	height: 9%;
+	    	line-height: 200%;	 
+	    	
+	    	transform : rotate(-5deg);
+	    }
+	    .SN{
+	    	position: absolute;
+	    	top: 27%;
+	    	left: 40.8%;
+	    	border-radius: 0.25em;
+	    	width: 5%;
+	    	height: 7%;
+	    	
+	    	transform : rotate(-8deg);
+	    }
+	    .RLB{
+	    	position: absolute;
+	    	top: 27%;
+	    	left: 46.3%;
+	    	border-radius: 0.25em;
+	    	width: 4%;
+	    	height: 7%;
+	    	
+	    	transform : rotate(-25deg);
+	    }
+	    .NIV{
+	    	position: absolute;
+	    	top: 4%;
+	    	left: 44%;
+	    	border-radius: 0.25em;
+	    	width: 6%;
+	    	height: 5%;
+	    	transform : rotate(-8deg);
+	    }
+	    .MT1{
+	    	position: absolute;
+	    	top: 18%;
+	    	left: 42%;
+	    	border-radius: 0.25em;
+	    	width: 5%;
+	    	height: 7%;
+	    	
+	    	transform : rotate(8deg);
+	    }
+	    .MT2{
+	    	position: absolute;
+	    	top: 16%;
+	    	left: 45%;
+	    	border-radius: 0.25em;
+	    	width: 2%;
+	    	height: 3%;
+	    	
+	    	transform : rotate(8deg);
+	    }
+	    .VS{
+	    	position: absolute;
+	    	top: 45%;
+	    	left: 50%;
+	    	border-radius: 0.25em;
+	    	width: 5%;
+	    	height: 7%;
+	    	
+	    	transform : rotate(-5deg);
+	    }
+	   
+	    .AZ1{
+	    	position: absolute;
+	    	top: 16%;
+	    	left: 80.5%;
+	    	border-radius: 0.25em;
+	    	width: 6%;
+	    	height: 13%;
+
+	    	line-height: 300%;
+	    	
+	    	transform : rotate(-5deg);
+	    }
+	    .AZ2{
+	    	position: absolute;
+	    	top: 12%;
+	    	left: 80%;
+	    	border-radius: 0.25em;
+	    	width: 3%;
+	    	height: 6%;
+	    	
+	    	transform : rotate(-5deg);
+	    }
+	    .MS{
+	    	position: absolute;
+	    	top: 56%;
+	    	left: 50%;
+	    	border-radius: 0.25em;
+	    	width: 6%;
+	    	height: 15%;
+	    	
+	    	line-height: 300%;
+	    	transform : rotate(-5deg);
+	    }
+	    .LLR1{
+	    	position: absolute;
+	    	top: 58%;
+	    	left: 58.5%;
+	    	border-radius: 0.25em;
+	    	width: 6%;
+	    	height: 10%;
+	    	
+	    	line-height: 200%;
+	    	transform : rotate(-10deg);
+	    }
+	    .LLR2{
+	    	position: absolute;
+	    	top: 54.5%;
+	    	left: 58%;
+	    	border-radius: 0.25em;
+	    	width: 2.5%;
+	    	height: 5%;
+	    	
+	    	transform : rotate(-10deg);
+	    }
+	    .MMM{
+	    	position: absolute;
+	    	top: 54.5%;
+	    	left: 68%;
+	    	border-radius: 0.25em;
+	    	width: 7%;
+	    	height: 8%;
+	    	
+	    	line-height: 220%;
+	    	transform : rotate(-8deg);
+	    }
+	    .LBS{
+	    	position: absolute;
+	    	top: 51.5%;
+	    	left: 77.5%;
+	    	border-radius: 0.25em;
+	    	width: 8%;
+	    	height: 8%;
+	    	
+	    	line-height: 220%;
+	    	transform : rotate(-8deg);
+	    }
+	    .HJB{
+	    	position: absolute;
+	    	top: 34%;
+	    	left: 64%;
+	    	border-radius: 0.25em;
+	    	width: 5%;
+	    	height: 6%;
+	    	
+	    	transform : rotate(0deg);
+	    }
+	    .JCB{
+	    	position: absolute;
+	    	top: 45%;
+	    	left: 62%;
+	    	border-radius: 0.25em;
+	    	width: 5%;
+	    	height: 6%;
+	    	
+	    	transform : rotate(-8deg);
+	    }
+	    .PH{
+	    	position: absolute;
+	    	top: 39%;
+	    	left: 74.5%;
+	    	border-radius: 0.25em;
+	    	width: 6%;
+	    	height: 9.5%;
+	    	
+	    	line-height: 200%;
+	    	transform : rotate(-14deg);
+	    }
+	    .NH1{
+	    	position: absolute;
+	    	top: 36%;
+	    	left: 81.5%;
+	    	border-radius: 0.25em;
+	    	width: 6%;
+	    	height: 11%;
+	    	
+	    	line-height: 200%;
+	    	transform : rotate(-14deg);
+	    }
+	    .NH2{
+	    	position: absolute;
+	    	top: 33%;
+	    	left: 84%;
+	    	border-radius: 0.25em;
+	    	width: 2.5%;
+	    	height: 3%;
+	    	
+	    	transform : rotate(-14deg);
+	    }
+
+.RPtext, .RKtext, .MStext , .LLRtext , .MMMtext , .LBStext , .PHtext , .NHtext , .AZtext , .HJBtext , .SNtext , .MTtext , .JCBtext , .NIVtext , .BCRtext , .GKHtext , .VStext , .RLBtext, .intro{
+    position: fixed;
+    font-family: Titillium Web;
+    top: 12%;
+    left: 3%;
+    right: 70%;
+    z-index: 10;
+    opacity:0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+.RPtext:target , .RKtext:target , .MStext:target , .LLRtext:target , .MMMtext:target , .LBStext:target , .PHtext:target , .NHtext:target , .AZtext:target , .HJBtext:target , .SNtext:target , .MTtext:target , .JCBtext:target , .NIVtext:target , .BCRtext:target , .GKHtext:target , .VStext:target , .RLBtext:target, .intro:target{
+	opacity: 1;
+	pointer-events : auto;
+}
+
+.content {
+	border-radius: 1em;
+    width: 90%;
+    height: 500px;
+    position: relative;
+    z-index: 0;
+    padding: 5px 20px 13px 20px;
+    background: rgb(250,250,250);
+    color: rgb(40,40,40);
+    overflow: auto;
+    font-size: 1.2em;
+    opacity: 0.9;
+}
+a{
+	text-decoration: none;
+	color: #ff9900;
+	font-weight: 700;
+	cursor: pointer;
+}
+.credits{
+	font-family: Titillium Web;
+	font-size: 1em;
+	position: absolute;
+	bottom:-1.5%;
+	left : 5%;
+	color: rgb(202,30,40);
+	font-weight: 600;
+}
+
+.titles1{
+	font-family: Titillium Web;
+	font-size: 6.5em;
+	position: absolute;
+	bottom:-10%;
+	left : 45%;
+	color: rgb(202,30,40);
+	font-weight: 900;
+}
+.titles2{
+	font-family: Titillium Web;
+	font-size: 1em;
+	position: absolute;
+	bottom:7.2%;
+	left : 72%;
+	text-align: left;
+	font-weight: 700;
+	color: rgb(50,50,50);
+}
+.titles3{
+	font-family: Titillium Web;
+	font-size: 1em;
+	position: absolute;
+	transform : rotate(-90deg);
+	bottom:12.5%;
+	left : 41.5%;
+	text-align: left;
+	font-weight: 900;
+	color: rgb(50,50,50);
+}
+.logo{
+	position: absolute;
+	bottom: 20%;
+	left: 82%;
+	transform : rotate(-90deg) scale(0.7);
+}
+
+    	</style>
+
+	</head>
+	<body onload=' location.href="#intro" '>
+		<div class='yo'>
+			<div class='RP hall'><a href='#RPtext'><strong>RP</strong></a></div>
+			<div class='RK hall'><a href='#RKtext'><strong>RK</strong></a></div>
+			<div class='MS hall'><a href='#MStext'><strong>MS</strong></a></div>
+			<div class='LLR1 hall'><a href='#LLRtext'><strong>LLR</strong></a></div>		
+			<div class='LLR2 hall'></div>
+			<div class='MMM hall'><a href='#MMMtext'><strong>MMM</strong></a></div>
+			<div class='LBS hall'><a href='#LBStext'><strong>LBS</strong></a></div>
+			<div class='NH2 hall'></div>
+			<div class='NH1 hall'><a href='#NHtext'><strong>NH</strong></a></div>
+			<div class='AZ1 hall'><a href='#AZtext'><strong>AZ</strong></a></div>
+			<div class='AZ2 hall'></div>
+			<div class='PH hall'><a href='#PHtext'><strong>PH</strong></a></div>
+			<div class='HJB hall'><a href='#HJBtext'><strong>HJB</strong></a></div>
+			<div class='JCB hall'><a href='#JCBtext'><strong>JCB</strong></a></div>
+			<div class='BCR hall'><a href='#BCRtext'><strong>BCR</strong></a></div>
+			<div class='GKH hall'><a href='#GKHtext'><strong>GKH</strong></a></div>
+			<div class='VS hall'><a href='#VStext'><strong>VS</strong></a></div>
+			<div class='SN hall'><a href='#SNtext'><strong>SN/IG</strong></a></div>
+			<div class='MT1 hall'><a href='#MTtext'><strong>MT</strong></a></div>
+			<div class='MT2 hall'></div>
+			<div class='RLB hall'><a href='#RLBtext'><strong>RLB</strong></a></div>
+			<div class='NIV hall'><a href='#NIVtext'><strong>NIV</strong></a></div>
+		</div>
+		<div class='scissors'></div>
+
+		<div id="RPtext" class="RPtext">
+                <div class ="content">
+                <h1 align="center">Rajendra Prasad Hall of Residence</h1>
+                <p align='left'>Believe it or not - even Ripleys vouches for it - these are Kharagpur's gentlemen, by choice. All of them. Despite the random allotment. What are the odds? </p>
+                <p align='left'> <strong>Hall Day:</strong> ? March
+                	<br> <strong>Watch out for:</strong> 60 scintillating years
+                </p>
+            </div>
+        </div>   
+		<div id="RKtext" class="RKtext">
+                <div class ="content">
+                <h1 align="center"> Radha Krishnan  Hall of Residence</h1>
+                <p align='left'>The most "well endowed" hall, thanks to generous alumni. The residents also don't miss out any chance to stress its proximity to SN, SAM and Gokhale. *wink-wink*</p>
+                <p align='left'> <strong>Hall Day:</strong> ? March
+                	<br> <strong>Watch out for:</strong> The cool wall graffiti featuring the likes of Jimi Hendrix, Jimmy Page and John Lenon.
+                </p>
+            </div>
+        </div>
+        		<div id="MStext" class="MStext">
+                <div class ="content">
+                <h1 align="center">Megnad Saha Hall of Residence</h1>
+                <p align='left'>They have been one year away from becoming the next big thing. For the past seven years.</p>
+                <p align='left'> <strong>Hall Day:</strong> ? March
+                	<br> <strong>Watch out for:</strong> The 'Rising Kings'. Of what, you ask? Hmmm...
+                </p>
+            </div>
+        </div>
+        		<div id="LLRtext" class="LLRtext">
+                <div class ="content">
+                <h1 align="center">Lala Lajpat Rai Hall of Residence</h1>
+                <p align='left'>"Lajpatians seek an opportunity to excel at everything.." Hmm. "... a cricket ground and the best music room in the entire campus " Okay. "LLR's lions have never failed to shine.." Erm? "LLR's mess is unofficially the best mess in the institute." BWHAHAHAHA.</p>
+                <p align='left'> <strong>Hall Day:</strong> ? March
+                	<br> <strong>Watch out for:</strong> The Rain Dance legacy. LLR was one of the first halls to be initiated to the order of messy, soaking wet dancers. 
+                </p>
+            </div>
+        </div>
+        		<div id="MMMtext" class="MMMtext">
+                <div class ="content">
+                <h1 align="center"> Madan Mohan Malviya Hall of Residence</h1>
+                <p align='left'> <strong>Hall Day:</strong> ? March</p>
+            </div>
+        </div>
+        		<div id="LBStext" class="LBStext">
+                <div class ="content">
+                <h1 align="center">Lalbahadur Sastry Hall of Residence</h1>
+                <p align='left'>A commercial, mass produced, one-size-fit-all-solution to the burgeoning population. Reference applies to both the hall and its JEE champions.</p>
+                <p align='left'> <strong>Hall Day:</strong> ? March
+                	<br> <strong>Watch out for:</strong> The oodles of first year louve!
+                </p>
+            </div>
+        </div>
+        		<div id="PHtext" class="PHtext">
+                <div class ="content">
+                <h1 align="center">Patel Hall of Residence</h1>
+                <p align='left'>Grand old men of the campus. Trivia : Did you know that their hall motto is "lux et veritas vincant". Heres looking you, Patelians.</p>
+                <p align='left'> <strong>Hall Day:</strong> ? March
+                	<br> <strong>Watch out for:</strong> The poltu virus that might infect you with election fever.
+                </p>
+            </div>
+        </div>
+        		<div id="AZtext" class="AZtext">
+                <div class ="content">
+                <h1 align="center">Azad Hall of Residence</h1>
+                <p align='left'></p>
+                <p align='left'> <strong>Hall Day:</strong> ? March
+                	<br> <strong>Watch out for:</strong> 
+                </p>
+            </div>
+        </div>
+        		<div id="NHtext" class="NHtext">
+                <div class ="content">
+                <h1 align="center">Nehru Hall of Residence</h1>
+                <img src='nehru.png' style="transform : scale(0.8)">
+                <p align='left'> <strong>Hall Day:</strong> ? March
+                	<br> <strong>Watch out for:</strong> The cheese chotai at Aseems
+                </p>
+            </div>
+        </div>
+        		<div id="HJBtext" class="HJBtext">
+                <div class ="content">
+                <h1 align="center">Homi Jahangir Bhabha Hall of Residence</h1>
+                <p align='left'>From a fledgling hall -> first choice of single-room-rejects of senior halls -> "Abe! Insti ka baap kaun hai?"</p>
+                <p align='left'> <strong>Hall Day:</strong> ? March
+                	<br> <strong>Watch out for:</strong> The hexagonal architecture. It makes sure your dance moves on the rain-dance-floor are visible to everyone.
+                </p>
+            </div>
+        </div>
+        		<div id="JCBtext" class="JCBtext">
+                <div class ="content">
+                <h1 align="center">J C Bose Hall of Residence</h1>
+                <p align='left'> <strong>Hall Day:</strong> ? March</p>
+            </div>
+        </div>
+        		<div id="VStext" class="VStext">
+                <div class ="content">
+                <h1 align="center">Vidyasagar Hall of Residence</h1>
+                <p align='left'> <strong>Hall Day:</strong> ? March
+                </p>
+            </div>
+        </div>
+        		<div id="SNtext" class="SNtext">
+                <div class ="content">
+                <h1 align="center"> Sarojini Naidu / Indira Gandhi Hall of Residence</h1>
+                <p align='left'>Amongst all halls/departments/societies, this one has the highest bandi ratio in the campus. </p>
+                <p align='left'> <strong>Hall Day:</strong> ? March
+                	<br> <strong>Watch out for:</strong> The cleanest rooms, hallday or not. Also, flashmob? Please? Please please?
+                </p>
+            </div>
+        </div>
+        		<div id="MTtext" class="MTtext">
+                <div class ="content">
+                <h1 align="center">Mother Teresa Hall of Residence</h1>
+                <p align='left'>As the new UG girls' hall, it's trying to redefine itself on the campus map. 
+Also used as the other entrance to SN.</p>
+                <p align='left'> <strong>Hall Day:</strong> ? March
+                	<br> <strong>Watch out for:</strong> The "spirited" crowd. The hallday with probably the maximum footfall. 
+                <br> <strong>Really watch out for:</strong> Flying furniture. Yes. Really.
+                </p>
+            </div>
+        </div>
+        <div id="RLBtext" class="RLBtext">
+                <div class ="content">
+                <h1 align="center"> Rani Laxmibai Hall of Residence</h1>
+                <p align='left'> <strong>Hall Day:</strong> ? March</p>
+            </div>
+        </div>
+        <div id="GKHtext" class="GKHtext">
+                <div class ="content">
+                <h1 align="center">Gokhale Hall of Residence</h1>
+                <p align='left'> <strong>Hall Day:</strong> ? March</p>
+            </div>
+        </div>
+        <div id="BCRtext" class="BCRtext">
+                <div class ="content">
+                <h1 align="center"> B C Roy Hall of Residence</h1>
+                <p align='left'> <strong>Hall Day:</strong> ? March</p>
+            </div>
+        </div>
+                		<div id="NIVtext" class="NIVtext">
+                <div class ="content">
+                <h1 align="center">Sister Nivedita Hall of Residence</h1>
+                <p align='left'> <strong>Hall Day:</strong> ? March</p>
+            </div>
+        </div>
+        
+        <div id="intro" class="intro">
+                <div class ="content">
+                <h1 align="left">Ahoy!</h1>
+                <p align='left'> Our halls define significant experiences in our KGP lives, like whether our favourite midnight snack is Ram Sandwich or Cheese Chotai or hunger. Halls days, a string of such experiences, are a time of merriment and warmth and tracking them will be delightfully easy, this year. 
+               	<br>Click on a hall to find out more.
+	           </div>
+        </div>
+        <p class='titles1'>
+        	HallDay
+        </p>
+         <p class='titles2'>
+        	AKA Spot the <br>guy/girl in<br>black'n'white
+        </p>
+        <p class='titles3'>
+        	Track your
+        </p>
+        <img class='logo' src='images.png'>
+        <p class = 'credits'> Jatan Buch & Vivek Aithal</p>
+	</body>
+</html>
